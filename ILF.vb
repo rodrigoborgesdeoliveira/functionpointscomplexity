@@ -1,4 +1,5 @@
-' Return Low, Average, High or Invalid (in case there is any invalid argument)
+' Return the Internal Logic File's (ILF) complexity as Low, Average, High or 
+' Invalid (in case there is any invalid argument)
 Function getILFComplexity(ByVal ret As Integer, ByVal det As Integer) As String
     If ret = 1 Then
         If det > 0 And det < 20 Then
@@ -36,7 +37,8 @@ Function getILFComplexity(ByVal ret As Integer, ByVal det As Integer) As String
 
 End Function
 
-' Return 7, 10, 15 or -1 (in case there is any invalid argument)
+' Return the Internal Logic File's (ILF) unadjusted points as 7, 10, 15 or 
+' -1 (in case there is any invalid argument)
 Function getILFUnadjustedPoints(ByVal ret As Integer, ByVal det As Integer) As Integer
     If ret = 1 Then
         If det > 0 And det < 20 Then
