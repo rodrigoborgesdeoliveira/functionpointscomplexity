@@ -37,7 +37,7 @@ Function getEOComplexity(ByVal ftr As Integer, ByVal det As Integer) As String
 
 End Function
 
-' Return the External Input's (EI) unadjusted points as 4, 5, 7 or 
+' Return the External Output's (EO) unadjusted points as 4, 5, 7 or 
 ' -1 (in case there is any invalid argument)
 Function getEOUnadjustedPoints(ByVal ftr As Integer, ByVal det As Integer) As Integer
     If ftr = 1 Then
