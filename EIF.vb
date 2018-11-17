@@ -37,7 +37,7 @@ Function getEIFComplexity(ByVal ret As Integer, ByVal det As Integer) As String
 
 End Function
 
-' Return the External Interface File's (EIF) unadjusted points as 7, 10, 15 or 
+' Return the External Interface File's (EIF) unadjusted points as 5, 7, 10 or 
 ' -1 (in case there is any invalid argument)
 Function getEIFUnadjustedPoints(ByVal ret As Integer, ByVal det As Integer) As Integer
     If ret = 1 Then
